@@ -470,8 +470,12 @@ textarea {
   padding: 0.2em 0;
 }
 
-body {
+body:has(#root) {
   background-color: #000;
   position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-row: 1;
   color: white;
 }

@@ -8,16 +8,7 @@ const app = express()
 app.use(express.urlencoded({ extended: true }))
 app.use(express.json())
 
-
-
-app.get('/hello', (req, res, next) => {
-  req.body = { ad: 'hello' }
-  next()
-}, (req, res, next) => {
-  req.uwu = "hello"
-  next()
-}, (req, res) => {
-  console.log(req.body, req.uwu, res.uww)
+app.get('/hello', (req, res) => {
   res.send('hello wolrd')
 })
 
