@@ -1,0 +1,31 @@
+{
+  "name": "asfd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "_-server": "nodemon index.js",
+    "_-client": "npm run start --prefix client",
+    "dev": "concurrently npm:_-*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DoDucMinh1608/asdfsafdasfe.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DoDucMinh1608/asdfsafdasfe/issues"
+  },
+  "homepage": "https://github.com/DoDucMinh1608/asdfsafdasfe#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^6.6.7"
+  },
+  "devDependencies": {
+    "concurrently": "^7.5.0",
+    "dotenv": "^16.0.3",
+    "nodemon": "^2.0.20"
+  }
+}
