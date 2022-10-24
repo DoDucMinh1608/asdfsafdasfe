@@ -473,9 +473,12 @@ textarea {
 body:has(#root) {
   background-color: #000;
   position: relative;
+  color: white;
+}
+
+#root {
   width: 100vw;
   height: 100vh;
   display: grid;
-  grid-row: 1;
-  color: white;
+  overflow: hidden;
 }

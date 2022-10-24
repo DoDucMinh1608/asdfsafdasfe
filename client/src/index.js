@@ -1,8 +1,8 @@
 import ReactDOM from 'react-dom/client';
-import './styles/index.css';
+import './styles/index.scss';
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import App from './pages/App';
-import Starblast from './pages/starblast/index'
+import Starblast from './pages/starblast/'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
